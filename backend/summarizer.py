@@ -5,8 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Load Hugging Face API key (if needed for hosted models)
-HF_API_KEY = os.getenv("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")
+HF_API_KEY = os.getenv("HF_API_KEY")
 
 print("🔄 Loading summarization model... (this may take 1–2 minutes on first run)")
 
